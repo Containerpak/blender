@@ -3,6 +3,8 @@ name: Publish
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '25 1 * * 2'
   workflow_dispatch:
 
 permissions:
@@ -48,4 +50,3 @@ jobs:
           sbom: true
       - name: Verify exports
         run: docker run --rm ghcr.io/containerpak/blender:main sh -c 'test -x /usr/bin/blender && test -f /usr/share/applications/blender.desktop'
-
