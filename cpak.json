@@ -4,7 +4,7 @@
   "name": "Blender",
   "description": "Create 3D models, animations, renders and video projects.",
   "version": "5.0.1",
-  "image": "ghcr.io/containerpak/blender@sha256:04bab91cddcc3983d5b381f91d06d51648dcf754478ed277ce39a721214b6b07",
+  "image": "ghcr.io/containerpak/blender@sha256:1d98b91af1726ea5906e1f24492ce6c2bbb71907175ffa9f41cd0f3cca732c7a",
   "binaries": [
     "/usr/bin/blender"
   ],
